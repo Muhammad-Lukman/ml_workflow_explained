@@ -4,12 +4,14 @@ This repository provides a step-by-step explanation of a **complete machine lear
 
 ##  Project Structure
 
+```text
 ml_workflow_explained/
-├── ml_workflow_explained.ipynb  # Main notebook with the entire ML pipeline
-├── README.md                    # Project documentation
-├── .gitignore                   # Ignore unnecessary files
-├── LICENSE                      # License file
-└── requirements.txt             # Python dependencies (optional)
+├── ml_workflow_explained.ipynb   # Main notebook with the entire ML pipeline
+├── README.md                     # Project documentation
+├── .gitignore                    # Ignore unnecessary files
+├── LICENSE                       # License file
+└── requirements.txt              # Python dependencies
+```
 
 ##  Dataset
 
@@ -48,10 +50,11 @@ The notebook demonstrates the following steps:
    - Accuracy score, confusion matrix, classification report.
 
 ##  Installation
-
-git clone https://github.com/YourUsername/ml_workflow_explained.git  
-cd ml_workflow_explained  
+```bash
+git clone https://github.com/YourUsername/ml_workflow_explained.git
+cd ml_workflow_explained
 pip install -r requirements.txt
+```
 
 ##  Requirements
 
@@ -64,10 +67,6 @@ pip install -r requirements.txt
 - jupyter  
 
 (Use `pip install -r requirements.txt` to install automatically)
-
-##  Running the Notebook
-
-jupyter notebook ml_workflow_explained.ipynb
 
 ##  License
 
